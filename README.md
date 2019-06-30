@@ -10,12 +10,11 @@ The engine should at least supply the following capabilities:
 
 Implementation Details
 -------
-
-  *Provide a generic option for using different similarity algorithms, and implement two
+* Provide a generic option for using different similarity algorithms, and implement two
 options yourself
-  *Provide a generic option for using different tokenization methods, and implement
+* Provide a generic option for using different tokenization methods, and implement
 two options yourself
-  *Notice, the system can be used by numerous users in parallel.
+* Notice, the system can be used by numerous users in parallel.
 
 Example
 -----
@@ -34,9 +33,9 @@ Usage
 Build: ```mvn clean install```
 
 Access: 
--http://localhost:8080/list
--http://localhost:8080/index
--http://localhost:8080/search
+- http://localhost:8080/list
+- http://localhost:8080/index
+- http://localhost:8080/search
 
 
 
